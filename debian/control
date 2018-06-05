@@ -1,0 +1,13 @@
+Source: calamares-ubiquity-fixes
+Section: devel
+Priority: optional
+Maintainer: LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://lliurex.net
+
+Package: calamares-ubiquity-fixes
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, calamares
+Description: Add modules to execute ubiquity actions
+ Create symbolic link to resolv.conf
